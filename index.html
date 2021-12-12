@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+  
+
+    <!--Add your Firsebase Config here below. -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <script>const firebaseConfig = {
+      /* My new DB not working
+          apiKey: "AIzaSyBlil6bT1wlH2kaRdICNO67mL68hibTLQM",
+          authDomain: "c35-finalfinal.firebaseapp.com",
+          projectId: "c35-finalfinal",
+          storageBucket: "c35-finalfinal.appspot.com",
+          messagingSenderId: "59387656633",
+          appId: "1:59387656633:web:070c4a539c41a6c2d79e68"
+      */
+      //old db working
+      apiKey: "AIzaSyBRBuhAKDNsQp21kCVqvXBWuiYeiZwDGps",
+      authDomain: "synchronized-ball-639da.firebaseapp.com",
+      databaseURL: "https://synchronized-ball-639da-default-rtdb.firebaseio.com",
+      projectId: "synchronized-ball-639da",
+      storageBucket: "synchronized-ball-639da.appspot.com",
+      messagingSenderId: "313459730017",
+      appId: "1:313459730017:web:50ecc386a2245d32fdec20"
+      
+    };
+    firebase.initializeApp(firebaseConfig)
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
